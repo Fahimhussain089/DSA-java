@@ -1,0 +1,75 @@
+# ---------------------------------------------------------
+# .gitignore for Java / IntelliJ IDEA project (DSA-Java)
+# ---------------------------------------------------------
+
+# ===== Compiled Java class files =====
+*.class
+
+# ===== Build output folders =====
+out/
+build/
+bin/
+target/
+
+# ===== Package files =====
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ===== Java logs / crash reports =====
+*.log
+hs_err_pid*
+replay_pid*
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+.metadata/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== NetBeans =====
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ===== Maven / Gradle (just in case) =====
+.gradle/
+.mvn/
+mvnw
+mvnw.cmd
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== Windows =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Linux =====
+*~
+.fuse_hidden*
+.Trash-*
+
+# ===== Editor backup / temp files =====
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
